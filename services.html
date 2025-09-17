@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>responsive navbar with dropdown menu</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'><link rel="stylesheet" href="./style.css">
+
+</head>
+
+  <br>
+<!-- partial:index.partial.html -->
+<header id="nav-menu" aria-label="navigation bar">
+  <div class="container">
+    <div class="nav-start">
+      <a class="logo" href="index.html">
+        <img src="assets/images/logo.png" width="315" height="115" alt="Inc Logo" />
+      </a>
+    </div>
+    <br><br>
+
+    <div class="nav-end">
+            <nav class="menu">
+          <ul class="menu-bar">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="about.html">About</a></li>
+            <li><a class="nav-link" href="services.html">Services</a></li>
+            <li><a class="nav-link" href="blogs.html">Blogs</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
+      <button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
+        <i class="bx bx-menu" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="services-container">
+    <div class="services-header">
+      <h3 class="section-title">Astrology & Vastu Services</h3>
+    </div>
+
+    <div class="services-content row g-0 d-flex align-items-center">
+      <!-- Text Section -->
+      <div class="col-12 col-md-8">
+        <div class="services-text">
+          <p>I offer a wide range of <strong>Vedic Astrology</strong> and <strong>Vastu consultation services</strong> to help you overcome challenges, find solutions, and invite positive energy into your life.</p>
+
+          <hr class="separator" />
+
+          <p><strong>&#x1f52e; Janm Kundali Analysis</strong><br>Detailed birth chart (Janm Patrika) analysis to understand your life path, personality, strengths, challenges, and future predictions.</p>
+
+          <p><strong>&#x1f4db; Naamkaran (Name Selection)</strong><br>Vedic name selection for newborns, businesses, or personal use to ensure harmony with your planetary energies.</p>
+
+          <p><strong>&#x2764;&#xfe0f; Prem Sambandhi Samasya ka Nivaran</strong><br>Solutions for love-related issues, misunderstandings, and relationship challenges using Vedic astrology remedies.</p>
+
+          <p><strong>&#x1f48d; Vivaah me Aane Wali Badhayein ka Samadhan</strong><br>Astrological guidance to remove obstacles in marriage, compatibility checks, and finding auspicious times.</p>
+
+          <p><strong>&#x1f3e0; Grah Kalesh & Grah Shanti</strong><br>Remedies for family disputes, negative energies, and planetary imbalances through Grah Shanti rituals.</p>
+
+          <p><strong>&#x1f3db; Vastu Sambandhi Samasya ka Samadhan</strong><br>Vedic & Advanced Mahavastu solutions to balance energy flow in homes, offices, and commercial spaces.</p>
+
+          <p><strong>&#x1f4c5; Shubh Muhurat Nirnay</strong><br>Finding the most auspicious time for important events like marriage, business openings, or religious ceremonies.</p>
+
+          <p><strong>&#x2696;&#xfe0f; Court Case Solutions</strong><br>Astrological guidance for resolving legal disputes and ensuring favorable outcomes.</p>
+
+          <p><strong>&#x1fa94; Pooja & Paath Services</strong><br>All types of Vedic puja, havan, mantra jaap, and path services performed as per authentic traditions.</p>
+        </div>
+      </div>
+
+      <!-- Image Section -->
+      <div class="col-12 col-md-4">
+        <div class="services-image">
+          <figure>
+            <img src="assets/images/re.webp" alt="Astrology & Vastu Services" class="img-fluid" />
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+    <!-- ------------------------------------------------------------------------------------ -->
+<!-- Footer Styles -->
+<style>
+  .footer {
+    padding: 20px 20px;
+    text-align: center;
+  }
+
+  .footer-container {
+    max-width: 1450px;
+    margin: 10 ;
+  }
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* ✅ This aligns items vertically in the middle */
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: left;
+}
+
+.footer-left {
+  flex: 1 1 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start; /* You can change to center / flex-end as needed */
+  gap: 20px; /* Space between child elements */
+  padding-right: 20px;
+}
+
+.footer-right {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start; /* You can change this too */
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.footer-top {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1px;
+  font-size: 18px;
+  color: #999;
+}
+
+  .footer-logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .footer-social {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .footer-social a {
+    font-size: 28px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+
+  .footer-social a:hover {
+    color: #007bff;
+  }
+
+  .footer-links .nav-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-end;
+  }
+
+  .footer-links .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .footer-links .nav-link:hover {
+    color: #007bff;
+  }
+
+  .footer-copy {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+  }
+
+  /* Responsive: Stack for small screens */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .footer-left,
+    .footer-right {
+      align-items: center;
+      justify-content: center;
+    }
+
+    .footer-social,
+    .footer-links .nav-footer {
+      justify-content: center;
+    }
+  }
+</style>
+
+<!-- Head Section for Boxicons -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footer Page</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<!-- Footer HTML -->
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Top Section -->
+    <div class="footer-top">
+      <div class="footer-content">
+        
+        <!-- Left: Logo -->
+        <div class="footer-left">
+             <div class="footer-logo-wrapper">
+                <img src="assets/images/logo.png" width="400" height="130" alt="The Ninth House Astrology Logo" class="footer-logo" />
+            </div>
+
+
+              <div class="footer-description">
+                    
+            </div>
+        </div>
+
+        <!-- Right: Social Icons + Footer Links -->
+        <div class="footer-right">
+          <div class="footer-social">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+            <a href="#"><i class='bx bxl-pinterest'></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            <a href="#"><i class='bx bxl-telegram'></i></a>
+          </div>
+
+          <div class="footer-links">
+            <nav class="nav nav-footer">
+              <a class="nav-link" href="privacy.html">Privacy</a>
+              <a class="nav-link" href="terms.html">Terms</a>
+              <a class="nav-link" href="feedback.html">Feedback</a>
+              <a class="nav-link" href="support.html">Support</a>
+              <a class="nav-link" href="compatibility_tester.html">Compatibility Tester</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="footer-bottom">
+      <p>&copy; <span id="copyright-year"></span> The Ninth House Astrology. All rights reserved. Empowering astrology for the modern soul.</p>
+    </div>
+
+  </div>
+</footer>
+
+<!-- Auto Year Script -->
+<script> document.getElementById('copyright-year').textContent = new Date().getFullYear(); </script>
